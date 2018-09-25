@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet, Text, Button, View, TextInput, FlatList, ScrollView } from 'react-native';
 import History from '../containers/History';
+import Homescreen from '../screens/HomeScreen';
 
 export default class Counter extends Component {
     constructor(props)
@@ -59,12 +60,6 @@ export default class Counter extends Component {
                         accessibilityLabel="+"
                       
                     />
-                  
-                  
-                  <History
-                  />
-    
-
             </View>
         );
     }
