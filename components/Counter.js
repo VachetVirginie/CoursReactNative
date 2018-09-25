@@ -16,21 +16,24 @@ export default class Counter extends Component {
 
         return (
             <View>
-                <Text>
+                <Text style={{
+       marginTop:40,
+      }}>
+               
                     Clicked: {this.props.counter} times
                     
                 </Text>
                     <Button
                         onPress={() => this.props.actions.increment()}
                         title="+"
-                        color="black"
+                        color="powderblue"
                         accessibilityLabel="+"
                         marginTop="12"
                     />
                     <Button
                         onPress={() => this.props.actions.decrement()}
                         title="-"
-                        color="black"
+                        color="skyblue"
                         accessibilityLabel="-"
                       
                     />
@@ -38,7 +41,7 @@ export default class Counter extends Component {
                     <Button
                         onPress={() => this.props.actions.fetchRandomNumber()}
                         title="FETCH"
-                        color="black"
+                        color="steelblue"
                         accessibilityLabel="FETCH"
                        
                     />
