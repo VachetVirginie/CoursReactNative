@@ -18,7 +18,7 @@ export default class Counter extends Component {
         return (
             <View>
                 <Text style={{
-       marginTop:40,
+       marginTop:40, textAlign:'center',
       }}>
                
                     Clicked: {this.props.counter} times
@@ -54,7 +54,7 @@ export default class Counter extends Component {
 
                     <Button
                         onPress={() => this.props.actions.incrementBy(this.props.inputValue)}
-                        title="+nb aleatoire"
+                        title="Total"
                         color="black"
                         borderRadius="25"
                         accessibilityLabel="+"

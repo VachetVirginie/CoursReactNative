@@ -12,7 +12,7 @@ export default class History extends Component {
   
   render() {
     return (
-      <ScrollView style={{ height: 200, width:200, backgroundColor: '#aaa', left:70 , marginTop:40,}}>
+      <ScrollView style={{ height: 200, width:200, backgroundColor: '#aaa', left:15 , marginTop:40,}}>
         <Text
         style={{
           textAlign:"center",
